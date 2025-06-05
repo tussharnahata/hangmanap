@@ -18,7 +18,7 @@ if "word" not in st.session_state:
     st.session_state.tries = 6
     st.session_state.game_over = False
 
-st.title("🎯 Hangman Game")
+st.title("🕹 Hangman Game")
 
 st.write(f"Tries left: {st.session_state.tries}")
 st.write(display_word(st.session_state.word, st.session_state.guesses))
