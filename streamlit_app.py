@@ -3,7 +3,7 @@ import streamlit as st
 import random
 
 # Word list
-word_list = ['python', 'java', 'kotlin', 'javascript', 'hangman', 'challenge', 'notebook']
+from words import word_list
 
 def get_word():
     return random.choice(word_list).upper()
